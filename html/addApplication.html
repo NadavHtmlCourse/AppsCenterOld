@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AppsCenter</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="/css/add.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <!--Image-->
+                <div class="col col-md-2"></div>
+                <div class="col col-md-8">
+                    <img class="appCenterImg" src="/images/AppsCenter.png" alt="Applications Center."/>
+                </div>
+                <div class="col col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col col-md-2"></div>
+                <div class="col col-md-10">
+                    <!--<form>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>-->
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="appNameInput" class="form-label">App name:</label>
+                            <input type="textbox" class="form-control" id="appNameInput" aria-describedby="appNameHelp">
+                            <div id="appNameHelp" class="form-text">Application Name</div>
+                        </div>
+                          <div class="mb-3">
+                            <label for="appPriceInput" class="form-label">App price:</label>
+                            <input type="textbox" class="form-control" id="appPriceInput" aria-describedby="appPriceHelp">
+                            <div id="appPriceHelp" class="form-text">Application Price</div>
+                        </div>
+                          <div class="mb-3">
+                            <label for="appDescriptionInput" class="form-label">App description:</label>
+                            <input type="textarea" class="form-control" id="appDescriptionInput" aria-describedby="appDescriptionHelp">
+                            <div id="appDescriptionHelp" class="form-text">Application Description</div>
+                        </div>      
+                        <div class="mb-3">
+                          <label for="companyNameInput" class="form-label">Company Name:</label>
+                          <input type="textbox" class="form-control" id="companyNameInput" aria-describedby="companyNameHelp">
+                          <div id="companyNameHelp" class="form-text">Company Name</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="imageUrlInput" class="form-label">Image URL:</label>
+                          <input type="textbox" class="form-control" id="imageUrlInput" aria-describedby="imageUrlHelp">
+                          <div id="imageUrlInput" class="form-text">Image URL</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-success">publish application</button>
+                      </form>
+
+
+
+                </div>
+                <div class="col col-md-2"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="/src/inputValidation.js"></script>
+        <script type="text/javascript" src="/src/applications.js"></script>
+        <script type="text/javascript" src="/src/addApp.js"></script>
+        <script type="text/javascript" src="/src/main.js"></script>
+    </body>
+</html>
