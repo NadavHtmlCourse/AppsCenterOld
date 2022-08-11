@@ -1,0 +1,5 @@
+# Ignore the bootstrap-5.2.0-dist directory
+bootstrap-5.2.0-dist/
+
+# Ignore IDE specific files
+.vscode/
